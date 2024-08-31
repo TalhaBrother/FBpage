@@ -1,0 +1,69 @@
+body{
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    height: 100%;
+    margin: 0;
+}
+.logo{
+    text-align: center;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+.fom{
+    background-color: rgb(192, 188, 188);
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    display: block;
+    box-shadow: 0  4px  8px rgba(0,0,0,0.1);
+    height: 280px;
+    width: 300px;
+    align-items: center;
+    margin-top: 30px;
+    justify-content: center;
+
+
+}
+.fom input[type="text"],.fom input[type="password"]{
+    padding: 10px;
+    margin: 10px 0px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    
+}
+.login{
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    padding:10px;
+    margin: 10px 0px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    width: 250px;
+}
+.forgot{
+    margin:10px 0px;
+    font-weight:bold;
+    color:royalblue;
+    cursor:pointer;
+    
+}
+.create{
+    padding:10px;
+    margin: 10px 0px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    border: none;
+}
+.fom hr{
+    margin: 20px 0px; 
+}
